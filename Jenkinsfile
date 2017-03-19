@@ -6,7 +6,7 @@ node {
 	def mvnHome = tool 'mvn-3.3.9'
 	stage 'Build'
 	
-	sh '${mvnHome}/bin/mvn clean package'
+	sh '${mvnHome}/mvn clean package'
 
 
 }
