@@ -21,7 +21,7 @@ public class ProductDAOImplTest {
 		Product result = dao.read(1);
 		
 		assertNotNull(result);
-		assertEquals("Samsung Galaxy S7", result.getName());
+		assertEquals("Iphone", result.getName());
 	}
 
 }
