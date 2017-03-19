@@ -7,8 +7,7 @@ node {
 
 	stage 'Build'
 	
-	echo $mvnHome
-	sh '${mvnHome}/bin/mvn clean package'
+	sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn-3.3.9/bin/mvn clean package'
 
 
 }
